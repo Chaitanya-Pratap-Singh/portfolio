@@ -21,6 +21,19 @@ export default {
       validation: (Rule) => Rule.uri({scheme: ['http', 'https']}),
     },
     {
+      name: 'content',
+      type: 'array',
+      title: 'Content',
+      of: [
+        {
+          type: 'block',
+        },
+        {
+          type: 'image',
+        },
+      ],
+    },
+    {
       name: 'projectImage',
       title: 'Image',
       type: 'image',

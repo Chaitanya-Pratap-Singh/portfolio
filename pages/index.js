@@ -105,8 +105,7 @@ export default function Home({ projects }) {
 								<div key={item._id} className={styles.pcard}>
 									<img
 										src={builder.image(item.projectImage).width(500).url()}
-										alt="Image"
-										className={styles.image}
+										alt="image"
 									/>
 
 									<h2 className={styles.ptitle}>{item.name}</h2>
