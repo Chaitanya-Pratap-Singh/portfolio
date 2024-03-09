@@ -1,0 +1,39 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.hero {
+	background-image: url("../public/herobg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	justify-content: start;
+	display: flex;
+	height: 748px;
+	width: 80vw;
+}
+.heroHead {
+	color: #ffffff;
+	font-size: 81px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+.heroPara {
+	font-family: "Open Sans", sans-serif;
+	color: #8b949e;
+	font-size: 32px;
+}
+.heroText {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	flex-direction: column;
+}
+.aboutMe {
+	margin-top: 2rem;
+}
+.aboutMe > h3 {
+	color: #7ee787;
+	font-size: 48px;
+	font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,125 @@
+/** @format */
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.aboutMe {
+	margin-top: 2rem;
+	font-family: "Open Sans", sans-serif;
+}
+.aboutMe > h3 {
+	color: #7ee787;
+}
+.aboutMe > p > span {
+	color: #7ee787;
+	font-size: 25px;
+}
+.aboutMe > p,
+.contact p,
+.aboutMePara > p {
+	font-size: 25px;
+	color: #ffffff;
+}
+.aboutMePara {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 25px;
+	background-color: #161b22;
+	width: 80vw;
+	border-radius: 20px;
+	height: 590px;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+
+.project,
+.contact {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-family: "Open Sans", sans-serif;
+	width: 80vw;
+}
+.project h3 {
+	color: #ffa28b;
+}
+.contact h3 {
+	color: #939aff;
+}
+
+.aboutMe h3,
+.contact h3,
+.project h3 {
+	font-size: 40px;
+	font-weight: 500;
+}
+.contactImage {
+	float: right;
+	z-index: -1;
+}
+
+.contacts {
+	color: #939aff;
+	font-size: 25px;
+}
+.contacts Link {
+	color: #939aff;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.project {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.pcard {
+	border-radius: 20px;
+	border: solid white;
+	height: 545px;
+	width: 657px;
+	margin: 2rem;
+	padding: 1rem;
+	box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.ptitle {
+	color: #ffb77c;
+	font-size: 30px;
+	line-height: 26px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+}
+
+.pdesc {
+	color: white;
+	font-size: 22px;
+	line-height: 26px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+.pimg {
+	height: 200px;
+	width: 300px;
+	border-radius: 20px;
+	padding: 0.5rem;
+}
+.tag {
+	margin: 5px;
+	padding: 8px;
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+	border: none;
+	border-radius: 20px;
+}
+.tagContainer {
+	display: flex;
+	flex-wrap: wrap;
+}

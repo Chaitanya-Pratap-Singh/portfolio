@@ -1,0 +1,9 @@
+/** @format */
+
+.footer {
+	height: 432px;
+	background-image: url("../public/footer.png");
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+}
