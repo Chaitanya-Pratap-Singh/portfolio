@@ -28,7 +28,7 @@ export async function getServerSideProps(context) {
 
 export default function Home({ projects }) {
 	const client = createClient({
-		projectId: "f8alas9q",
+		projectId: "m5qc4ajs",
 		dataset: "production",
 		useCdn: false,
 	});
@@ -104,8 +104,8 @@ export default function Home({ projects }) {
 							projects.map((item) => (
 								<div key={item._id} className={styles.pcard}>
 									<img
-										src={builder.image(item.projectImage).width(500).url()}
-										alt="image"
+										src={builder.image(item.image).width(581).url()}
+										alt="image" className={styles.pimage}
 									/>
 
 									<h2 className={styles.ptitle}>{item.name}</h2>

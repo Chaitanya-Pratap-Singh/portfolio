@@ -14,12 +14,7 @@ export default {
       type: 'url',
       validation: (Rule) => Rule.uri({scheme: ['http', 'https']}),
     },
-    {
-      name: 'codeLink',
-      title: 'Code Link',
-      type: 'url',
-      validation: (Rule) => Rule.uri({scheme: ['http', 'https']}),
-    },
+
     {
       name: 'content',
       type: 'array',
@@ -34,9 +29,24 @@ export default {
       ],
     },
     {
-      name: 'projectImage',
+      name: 'image',
       title: 'Image',
       type: 'image',
+      options: {
+        hotspot: true,
+      },
+      fields: [
+        {
+          name: 'caption',
+          type: 'string',
+          title: 'Caption',
+        },
+        {
+          name: 'attribution',
+          type: 'string',
+          title: 'Attribution',
+        },
+      ],
     },
     {
       name: 'description',

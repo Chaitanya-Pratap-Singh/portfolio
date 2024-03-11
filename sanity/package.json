@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "blog",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
@@ -15,11 +15,12 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/code-input": "^4.1.3",
+    "@sanity/client": "^6.15.3",
     "@sanity/vision": "^3.32.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
+    "rxjs": "^7.4.0",
     "sanity": "^3.32.0",
     "styled-components": "^6.0.7"
   },
@@ -28,6 +29,7 @@
     "@types/react": "^18.0.25",
     "eslint": "^8.6.0",
     "prettier": "^3.0.2",
+    "rxjs": "^7.4.0",
     "typescript": "^5.1.6"
   },
   "prettier": {

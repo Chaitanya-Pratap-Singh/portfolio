@@ -84,6 +84,10 @@
 	width: 657px;
 	margin: 2rem;
 	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
@@ -94,6 +98,9 @@
 	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 }
+.pimage {
+	height: 321px;
+}
 
 .pdesc {
 	color: white;
@@ -103,12 +110,6 @@
 	font-weight: 300;
 }
 
-.pimg {
-	height: 200px;
-	width: 300px;
-	border-radius: 20px;
-	padding: 0.5rem;
-}
 .tag {
 	margin: 5px;
 	padding: 8px;
