@@ -29,6 +29,17 @@ export default {
       ],
     },
     {
+      title: 'Slug',
+      name: 'slug',
+      type: 'slug',
+      current: '',
+      options: {
+        source: 'name',
+        maxLength: 200, // will be ignored if slugify is set
+        slugify: (input) => input.toLowerCase().replace(/\s+/g, '-').slice(0, 200),
+      },
+    },
+    {
       name: 'image',
       title: 'Image',
       type: 'image',
