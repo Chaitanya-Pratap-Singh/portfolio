@@ -1,7 +1,4 @@
 /** @format */
-
-import Image from "next/image";
-import Link from "next/link";
 import urlBuilder from "@sanity/image-url";
 
 const urlFor = (source) =>
