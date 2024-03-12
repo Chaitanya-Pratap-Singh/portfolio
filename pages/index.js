@@ -95,7 +95,7 @@ export default function Home({ projects }) {
 				</div>
 				<Image src="/projectcloud.png" alt="text" width={398} height={254} />
 			</div>
-			<div className={styles.project}>
+			<div className={styles.projectSection}>
 				<h3> Projects</h3>
 
 				<div className={styles.projectGroup}>
@@ -120,6 +120,11 @@ export default function Home({ projects }) {
 											</span>
 										))}
 									</div>
+									<Link
+									key={item.slug.current}
+									href={"/projects/" + item.slug.current}>
+									Read More
+								</Link>
 								</div>
 							))
 						) : (

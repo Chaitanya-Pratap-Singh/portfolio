@@ -35,14 +35,14 @@
 	margin-bottom: 3rem;
 }
 
-.project,
+.projectSection,
 .contact {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 	font-family: "Open Sans", sans-serif;
 	width: 80vw;
 }
-.project h3 {
+.projectSection h3 {
 	color: #ffa28b;
 }
 .contact h3 {
@@ -51,7 +51,7 @@
 
 .aboutMe h3,
 .contact h3,
-.project h3 {
+.projectSection h3 {
 	font-size: 40px;
 	font-weight: 500;
 }

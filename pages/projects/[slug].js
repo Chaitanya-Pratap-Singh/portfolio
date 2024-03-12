@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import imageUrlBuilder from "@sanity/image-url";
 import { getClient } from '@/lib/sanity';
 import styles from "@/styles/slug.module.css"
+import { richText } from "@/components/richText";
 
 export async function getStaticPaths() {
   const client = getClient();
@@ -78,7 +79,7 @@ export default function project({ project }) {
         <h1  className={styles.title} >{project.name}</h1>
         <img className={styles.image} src={builder.image(project.image).width(200).url()} alt={project.image.caption} />
         <div className={styles.contentcontainer}>
-        <PortableText className ={styles.content} value={project.content} />
+        <PortableText className ={styles.content} value={project.content} components={richText}/>
         </div>
       </div>
     </>
